@@ -1,3 +1,4 @@
 .cards__header {
-  @include flex(row, space-between)
+  @include flex(row, space-between);
+  padding-bottom: $mainPadding;
 }

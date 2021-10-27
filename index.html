@@ -98,7 +98,7 @@
         <section class="cards__header">
           <h2 class="cards__title">Велосипеды</h2>
           <div class="cards__links">
-            <a class="cards__link" href="#">Шоссе</a>
+            <a class="cards__link cards__link_active" href="#">Шоссе</a>
             <a class="cards__link" href="#">Грэвел</a>
             <a class="cards__link" href="#">TT</a>
           </div>
@@ -106,25 +106,95 @@
         <section class="cards__list">
           <div class="card">
             <img class="card__image" src="/images/cervelo-caledonia-5.png" alt="Cervelo Caledonia-5">
-            <p class="card__name">Cervelo Caledonia-5</p>
+            <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN " target="_blank" 
+               class="card__name">Cervelo Caledonia-5</a>
           </div>
           <div class="card">
             <img class="card__image" src="/images/cannondale-systemsix-himod.png" alt="Cannondale Systemsix Himod">
-            <p class="card__name">Cannondale Systemsix Himod</p>
+            <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J" target="_blank"
+               class="card__name">Cannondale Systemsix Himod</a>
           </div>
           <div class="card">
             <img class="card__image" src="/images/trek-domane-sL-7.png" alt="Trek Domane SL-7">
-            <p class="card__name">Trek Domane SL-7</p>
+            <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF" target="_blank" 
+               class="card__name">Trek Domane SL-7</a>
+          </div>
+        </section>
+        <section class="cards__list">
+          <div class="card">
+            <img class="card__image" src="/images/cervelo-aspero-grx-810.png" alt="Cervelo Caledonia-5">
+            <a href="https://www.sigmasports.com/item/Cervelo/Aspero-GRX-810-1x-Disc-Gravel-Bike-2021/RJDE" target="_blank"
+               class="card__name">Cervelo Aspero GRX 810</a>
+          </div>
+          <div class="card">
+            <img class="card__image" src="/images/specialized-s-works-diverge.png" alt="Cannondale Systemsix Himod">
+            <a href="https://www.sigmasports.com/item/Specialized/S-Works-Diverge-Gravel-Bike-2020/NVJ9" target="_blank"
+               class="card__name">Specialized S-Works Diverge</a>
+          </div>
+          <div class="card">
+            <img class="card__image" src="/images/cannondale-topstone-lefty-3.png" alt="Trek Domane SL-7">
+            <a href="https://www.sigmasports.com/item/Cannondale/Topstone-Carbon-Lefty-3-Disc-Gravel-Road-Bike-2021/PUC8" target="_blank"
+               class="card__name">Cannondale Topstone Lefty 3</a>
+          </div>
+        </section>
+        <section class="cards__list">
+          <div class="card">
+            <img class="card__image" src="/images/cervelo-caledonia-5.png" alt="Specialized S-Works Shiv">
+            <a href="https://www.sigmasports.com/item/Specialized/S-Works-Shiv-Disc-Limited-Edition-Triathlon-Bike-2019/K8P9" target="_blank"
+               class="card__name">Specialized S-Works Shiv</a>
+          </div>
+          <div class="card">
+            <img class="card__image" src="/images/cannondale-systemsix-himod.png" alt="BMC Timemachine 01 ONE">
+            <a href="https://www.sigmasports.com/item/BMC/Timemachine-01-One-Force-Disc-TT-Triathlon-Bike-2021/S835" target="_blank"
+               class="card__name">BMC Timemachine 01 ONE</a>
+          </div>
+          <div class="card">
+            <img class="card__image" src="/images/trek-domane-sL-7.png" alt="Cervelo P-Series">
+            <a href="https://www.sigmasports.com/item/Cervelo/P-Series-Ultegra-Di2-TT-Triathlon-Bike-2021/RM6Q" target="_blank"
+               class="card__name">Cervelo P-Series</a>
           </div>
         </section>
       </article>
     </section>
     
+    <section class="training">
+      <div class="training__desc">
+        <h2 class="training__title">Тренировки</h2>
+        <p class="training__text">
+          Чтобы найти маршрут для тренировки можно воспользоваться
+          сервисом Komoot, а записать эти тренировки поможет приложение Strava, 
+          а также это приложение позволит построить тренировочный план.
+        </p>
+        <div class="training__links">
+          <a class="training__link" href="https://www.strava.com" target="_blank">Strava</a>
+          <a class="training__link" href="https://www.komoot.com" target="_blank">Komoot</a>
+        </div>
+      </div>
+      <img class="training__image" src="/images/training.jpg" alt="тренировки">
+    </section>
     
   </main>
   
   <footer class="footer">
-    
+    <section class="footer__info">
+      <h2 class="footer__title">
+        Подпишитесь на рассылку —
+      </h2>
+      <form class="footer__form form" name="mailing">
+        <fieldset class="form__container form__container_ctrl_input">
+          <input type="email" name="mail" value="" placeholder="Ваш e-mail" class="form__item form__item_el_mail" required>
+          <button type="submit" class="form__button">oк</button>
+        </fieldset>
+      </form>
+      <p class="footer__copyright">
+        &copy Road Club 2021
+      </p>
+    </section>
+    <section class="footer__switch">
+      <div class="switch-theme">
+        test
+      </div>
+    </section>
   </footer>
 </body>
 </html>

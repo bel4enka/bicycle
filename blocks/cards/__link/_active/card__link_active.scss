@@ -1,0 +1,8 @@
+.cards__link_active {
+  @include font(18px, $bolderText, 600, 28px);
+  transition: $transition;
+  
+  &:hover {
+    color: $hoverLinkLanding;
+  }
+}

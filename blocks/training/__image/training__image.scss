@@ -1,0 +1,5 @@
+.training__image {
+  @include images;
+  max-width: 580px;
+  max-height: 460px;
+}

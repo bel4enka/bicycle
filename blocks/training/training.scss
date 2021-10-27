@@ -1,0 +1,4 @@
+.training {
+  @include flex(row, space-between);
+  padding: $mainPadding $mainPadding $mainPadding $mainPadding;
+}

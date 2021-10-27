@@ -1,0 +1,5 @@
+.footer {
+  @include flex(row, space-between);
+  background: $backgroundFooter;
+  padding: 0 $mainPadding 0 $mainPadding;
+}

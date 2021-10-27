@@ -47,3 +47,8 @@
 @mixin arrow-hover {
   opacity: 0.6;
 }
+
+@mixin card {
+  background: #F4F4F4;
+  border-radius: 20px;
+}

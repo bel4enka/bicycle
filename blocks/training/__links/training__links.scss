@@ -1,0 +1,5 @@
+.training__links {
+  @include flex(row, start);
+  gap: 30px;
+  margin-top: auto;
+}
