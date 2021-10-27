@@ -1,0 +1,4 @@
+.about__title {
+  @include font(55px, $bolderText, 700, 60px);
+  margin: 0 0 50px 0;
+}

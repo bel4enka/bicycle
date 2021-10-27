@@ -1,0 +1,4 @@
+.gallery__item {
+  @include images;
+  max-width: 100%;
+}

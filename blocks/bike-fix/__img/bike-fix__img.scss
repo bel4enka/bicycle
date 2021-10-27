@@ -1,0 +1,14 @@
+.bike-fix__img {
+  @include images;
+  max-width: 100%;
+  max-height: 260px;
+  background: #F4F4F4;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  border-radius: 20px;
+  margin: 0;
+  display: inline-flex;
+  padding: 20px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

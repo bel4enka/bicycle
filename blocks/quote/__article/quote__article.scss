@@ -1,0 +1,6 @@
+.quote__article {
+  display: grid;
+  gap: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  padding: $mainPadding;
+}

@@ -1,0 +1,9 @@
+.menu__link {
+  @include font(14px, $bolderText, 500, 18px);
+  text-decoration: none;
+  transition: $transition;
+  
+  &:hover {
+    color: $hoverLinkHeader
+  }
+}

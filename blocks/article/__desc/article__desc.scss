@@ -1,0 +1,6 @@
+.article__desc {
+  @include font(18px, $normalTextRGBA, 400, 28px);
+  margin: 0 0 66px 0;
+  width: 460px;
+  
+}

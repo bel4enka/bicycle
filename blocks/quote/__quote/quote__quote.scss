@@ -1,0 +1,5 @@
+.quote__quote {
+  @include font(34px, $bolderText, 600, 44px);
+  max-width: 470px;
+  margin: 0;
+}

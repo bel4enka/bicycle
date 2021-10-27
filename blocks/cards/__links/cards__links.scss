@@ -1,0 +1,5 @@
+.cards__links {
+  @include flex(row, space-between);
+  align-items: end;
+  gap: 40px;
+}

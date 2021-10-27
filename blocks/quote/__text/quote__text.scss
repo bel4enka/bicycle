@@ -1,0 +1,4 @@
+.quote__text {
+  @include flex(column, space-between);
+  margin: 0;
+}

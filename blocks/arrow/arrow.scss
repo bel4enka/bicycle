@@ -1,0 +1,4 @@
+.arrow {
+  @include flex(row, start);
+  gap: 20px;
+}

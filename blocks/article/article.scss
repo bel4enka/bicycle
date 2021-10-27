@@ -1,0 +1,8 @@
+.article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  margin: 0 auto;
+  padding-left: $mainPadding;
+  position: relative;
+  
+}
