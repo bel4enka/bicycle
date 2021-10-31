@@ -1,6 +1,12 @@
 .about__item {
-  display: none;
-  &:first-child {
-    display: block;
-  }
+
+
+  @include mobileLandscape {
+    margin-top: 40px;
+    display: grid;
+    
+    &:after {
+      @include border-bottom;
+    }
+  }  
 }

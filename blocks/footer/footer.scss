@@ -1,5 +1,12 @@
 .footer {
-  @include flex(row, space-between);
+  display: grid;
+  justify-content: space-between;
+  
   background: $backgroundFooter;
   padding: 0 $mainPadding 0 $mainPadding;
+  
+  @include desktop {
+    padding-left: $smallPaddingLeftRight;
+    padding-right: $smallPaddingLeftRight;
+  }
 }

@@ -18,5 +18,14 @@
     bottom: 16px;
     left: -10px;
     z-index: 1;
+
+    @include mobileLandscape {
+      width: 95px;
+      height: 28px;
+
+    }
+    
   }
+  
+  
 }

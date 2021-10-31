@@ -1,5 +1,5 @@
 .cards__link_active {
-  @include font(18px, $bolderText, 600, 28px);
+  @include font(1.286, $bolderText, 600, 28px);
   transition: $transition;
   
   &:hover {

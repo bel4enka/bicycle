@@ -1,4 +1,8 @@
 .about__title {
-  @include font(55px, $bolderText, 700, 60px);
+  @include title;
   margin: 0 0 50px 0;
+  
+  @include tabletLandscape {
+    margin-bottom: 40px;
+  }
 }

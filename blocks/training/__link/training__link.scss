@@ -6,4 +6,8 @@
   &:hover {
     color: $hoverLinkLanding;
   }
+  
+  @include tabletPortrait {
+    font-size: 14px;
+  }
 }

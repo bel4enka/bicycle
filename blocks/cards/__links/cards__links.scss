@@ -2,4 +2,8 @@
   @include flex(row, space-between);
   align-items: end;
   gap: 40px;
+
+  @include mobileLandscape {
+    display: none;
+  }
 }

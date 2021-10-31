@@ -1,4 +1,5 @@
 .cards__title {
-  @include font(55px, $bolderText, 700, 60px);
+  @include title;
   margin: 0;
+  
 }

@@ -1,3 +1,12 @@
 .about {
-  padding: 0 0 $mainPadding $mainPadding;
+  padding-left: $mainPadding;
+  
+  @include desktop {
+    padding-left: $smallPaddingLeftRight;
+  }
+  
+  @include mobileLandscape {
+    position: relative;
+    
+  }
 }
