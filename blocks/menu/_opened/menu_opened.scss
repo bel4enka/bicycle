@@ -1,7 +1,0 @@
-.menu_opened {
-  opacity: 1;
-  visibility: visible;
-  
-  @include flex(column, space-between);
-  align-items: center;
-}
