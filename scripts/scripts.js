@@ -7,14 +7,19 @@ function toggleSwitchTheme () {
     switchTheme.classList.toggle('switch-theme_dark')
     document.querySelector('.body').classList.toggle('body_theme_dark')
 }
+
+/**
+ * Отрытие меню
+ */
 document.querySelector('.nav__wrap').addEventListener('click', function () {
     document.querySelector('.nav').classList.toggle('nav_opened')
     document.querySelector('.menu').classList.toggle('menu_opened')
 })
 
-switchTheme.addEventListener('click', toggleSwitchTheme)
 
-
+/**
+ * Плавный якорный переход по ссылкам
+ */
 const anchors = document.querySelectorAll('a[href*="#"]')
 
 for (let anchor of anchors) {
@@ -29,3 +34,5 @@ for (let anchor of anchors) {
         })
     })
 }
+
+switchTheme.addEventListener('click', toggleSwitchTheme)
