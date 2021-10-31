@@ -1,5 +1,8 @@
 const switchTheme = document.querySelector('.switch-theme');
 
+/**
+ * Переключатель темы. Само изменение темы ещё не работает.
+ */
 function toggleSwitchTheme () {
     switchTheme.classList.toggle('switch-theme_dark')
     document.querySelector('.body').classList.toggle('body_theme_dark')
